@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/andrey/Projects/c++/Ballon/Ballon.h
+cstdlib
+-
+vector
+-
+
+/home/andrey/Projects/c++/Ballon/main.cpp
+iostream
+-
+vector
+-
+algorithm
+-
+cstdlib
+-
+Ballon.h
+/home/andrey/Projects/c++/Ballon/Ballon.h
+
